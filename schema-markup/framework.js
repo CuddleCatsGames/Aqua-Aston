@@ -1,4 +1,4 @@
-// generative @id function
+// generative id function
 function id(type, identifier) {
 	// The goal of this is to generate a unique id for each schema.org object (usable in the '@id' key)
 	// Might there be a 'type' AND a 'identifier' that reference different objects but generate the same id?

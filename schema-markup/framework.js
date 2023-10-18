@@ -1,3 +1,32 @@
+// generative @id function
+function id(type, identifier) {
+	// The goal of this is to generate a unique id for each schema.org object (usable in the '@id' key)
+	// Might there be a 'type' AND a 'identifier' that reference different objects but generate the same id?
+	// maybe we can add 1 more 'key' that is used as a secondary reference value for the object? ex: 'document' (for a pdf a CreativeWork)... this is just an idea
+
+	// 'type' is the type of schema.org object ex: 'Organization', 'WebSite', 'ImageObject', etc.
+	// 'identifier' is a primary referencing value for the object. This might be a 'title', a 'identifier', 'caption', etc.
+
+	// Ensure identifier is a string, if not, convert it to a string
+
+	if (typeof identifier !== 'string') {identifier = String(identifier)}
+	if (!identifier) {
+		identifier = 'PLACEHOLDER'
+		console.log('identifier is empty, using placeholder')
+	}
+	function concatenateWithCamelCase(identifier) {
+		identifier = identifier.split(' '); // Split the identifier into an array of words
+		return identifier.map((word, index) => { // Convert the array of words into camelCase format
+			const lowerCasedWord = word.toLowerCase(); // Ensure each word is in lowercase
+			return index === 0 ? lowerCasedWord : lowerCasedWord.charAt(0).toUpperCase() + lowerCasedWord.slice(1); // Capitalize the first letter of each word (except the first one)
+		}).join('');
+	}
+	const identifierCamelCase = concatenateWithCamelCase(identifier);
+	const base = hotel.homepage;
+	return `${base}#${type}-${identifierCamelCase}`;
+}
+
+// generative JSON function
 function serpHotelPack(hotel) {
 
 	// hotel variables

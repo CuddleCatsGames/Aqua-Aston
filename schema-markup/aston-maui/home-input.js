@@ -129,13 +129,25 @@
 	checkOutTime: '11:00',
 	imageArr: [
 		{
-			caption: '',
-			url: '',
+			caption: 'ESCAPE TO KAANAPALI',
+			url: 'https://s40340.pcdn.co/wp-content/uploads/2023/09/Aston-Maui-Kaanapali-Villas-Pool-View_5040x3360-1500x430-1.jpg',
 		},
 		{
-			caption: '',
-			url: '',
+			caption: 'The Valley Isle, An Adventurer’s Paradise',
+			url: 'https://s40340.pcdn.co/wp-content/uploads/2016/01/Aston-Maui-Kaanapali-Villas_Aerial-2-1030x756.jpg',
 		}
+		{
+			caption: 'Kaanapali Beach',
+			url: 'https://s40340.pcdn.co/wp-content/uploads/2015/11/Homepage-Kaanapali-Beach.jpg',
+		},
+		{
+			caption: 'Serenity in Kaanapali',
+			url: 'https://s40340.pcdn.co/wp-content/uploads/2015/11/mkv_495x400-1.jpg',
+		}
+		{
+			caption: 'Dining',
+			url: 'https://s40340.pcdn.co/wp-content/uploads/2021/05/castaway-front-entrance-845x684-1-495x400.jpg',
+		},
 	],
 	logoUrl: 'https://s40340.pcdn.co/wp-content/uploads/2016/08/MKV-logo_02.png',
 	slogan: 'A modern resort with old Hawaii at heart',

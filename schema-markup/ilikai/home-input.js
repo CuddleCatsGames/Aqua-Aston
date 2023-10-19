@@ -152,13 +152,25 @@
 	checkOutTime: '11:00',
 	imageArr: [
 		{
-			caption: '',
-			url: '',
+			caption: 'Iconic. Irresistible. Ilikai.',
+			url: 'https://www.ilikaihotel.com/img/single-photo-home.jpg',
 		},
 		{
-			caption: '',
-			url: '',
+			caption: 'Great Savings at The Ilikai',
+			url: 'https://www.ilikaihotel.com/img/636x343-Homepage-2nd-floor-pool.jpg',
 		}
+		{
+			caption: 'Hawaiian Hospitality',
+			url: 'https://www.ilikaihotel.com/img/featured-photo-home.jpg',
+		},
+		{
+			caption: 'Pesca Waikiki Beach',
+			url: 'https://www.ilikaihotel.com/img/435x275-Dining-Pesca.jpg',
+		}
+		{
+			caption: 'Cinnamon’s Restaurant',
+			url: 'https://www.ilikaihotel.com/img/435x275-Dining-CinnamonsRestaurant.jpg',
+		},
 	],
 	logoUrl: 'https://www.ilikaihotel.com/img/logo.png',
 	slogan: 'Iconic. Irresistible. Ilikai.',

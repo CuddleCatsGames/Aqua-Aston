@@ -39,13 +39,25 @@
 	checkOutTime: '11:00',
 	imageArr: [
 		{
-			caption: '',
-			url: '',
+			caption: 'Nine Full-Floor Suites',
+			url: 'https://s40336.pcdn.co/wp-content/uploads/2021/06/ESPACIO-Penthouse-Great-Room-1076x690-1.jpg',
 		},
 		{
-			caption: '',
-			url: '',
+			caption: 'Private Chef Experience',
+			url: 'https://s40336.pcdn.co/wp-content/uploads/2022/07/ESPACIO-private-chef-fish-790x570-1.jpg',
 		}
+		{
+			caption: 'Penthouse Diamond Suite',
+			url: 'https://www.espaciowaikiki.com/app/images/pent.jpg',
+		},
+		{
+			caption: 'Oceanfront Suites',
+			url: 'https://www.espaciowaikiki.com/app/images/ocean.jpg',
+		}
+		{
+			caption: 'Curated to Captivate',
+			url: 'https://www.espaciowaikiki.com/app/images/flore-1.jpg',
+		},
 	],
 	logoUrl: 'https://www.espaciowaikiki.com/app/images/logo-primary.svg',
 	slogan: 'The Jewel of Waikiki',
